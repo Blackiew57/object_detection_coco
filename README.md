@@ -25,5 +25,5 @@ predict는 이미지 하나를 예측하는 작업임
 ```shell
 python predict.py -d "your_image_path" -c "your_model_checkpoint"
 ```
-- `-d`: 예측에 사용할 이미지 경로(default: `'../dataset/instance_example.jpg'`)
+- `-d`: 예측에 사용할 이미지 경로(default: `'../dataset/detection_example.jpg'`)
 - `-c`: 예측에 사용할 모델 파라미터 체크포인트 경로
