@@ -58,7 +58,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-w', '--num_workers', type=int, default=0, help='number of worker processes for data loading')
     parser.add_argument('-m', '--model', type=str, default='faster_rcnn')
-    parser.add_argument('-d', '--data_path', dest='data', type=str, default='./dataset')
+    parser.add_argument('-d', '--data_path', dest='data', type=str, default='../dataset')
     parser.add_argument('-b', '--batch_size', dest='batch', type=int, default=8)
     parser.add_argument('-c', '--checkpoint_path', dest='ckpt', type=str, default='./checkpoint/best-object-detection-faster_rcnn.pth')
     parser.add_argument('-dc', '--device', type=str, default='cuda')
